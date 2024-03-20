@@ -1,5 +1,6 @@
 import React from "react";
 import './features.css'
+import Header from "../header/Header.jsx";
 
 const Features = () => {
   return (
@@ -8,3 +9,5 @@ const Features = () => {
       </div>
   )
 }
+
+export default Features

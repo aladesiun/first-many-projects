@@ -1,5 +1,6 @@
 import React from "react";
 import './possibility.css'
+import Header from "../header/Header.jsx";
 
 const Possibility = () => {
     return (
@@ -8,3 +9,5 @@ const Possibility = () => {
         </div>
     )
 }
+
+export default Possibility
