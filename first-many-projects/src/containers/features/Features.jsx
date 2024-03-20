@@ -1,11 +1,10 @@
 import React from "react";
-import './features.css'
-import Header from "../header/Header.jsx";
+import './features.css';
 
 const Features = () => {
   return (
       <div>
-
+          Features
       </div>
   )
 }

@@ -1,11 +1,10 @@
 import React from "react";
-import './possibility.css'
-import Header from "../header/Header.jsx";
+import './possibility.css';
 
 const Possibility = () => {
     return (
         <div>
-
+            Possibility
         </div>
     )
 }

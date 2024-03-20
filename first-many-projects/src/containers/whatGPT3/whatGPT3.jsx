@@ -1,13 +1,12 @@
 import React from "react";
-import './whatGPT3.css'
-import Possibility from "../possibility/Possibility.jsx";
+import './whatGPT3.css';
 
 const whatGPT3 = () => {
     return (
         <div>
-
+            whatGPT3
         </div>
     )
 }
 
-export default whatGPT3()
+export default whatGPT3

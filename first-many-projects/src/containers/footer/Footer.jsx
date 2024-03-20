@@ -1,11 +1,10 @@
 import React from "react";
-import './footer.css'
-import Header from "../header/Header.jsx";
+import './footer.css';
 
 const Footer = () => {
     return (
         <div>
-
+            Footer
         </div>
     )
 }
