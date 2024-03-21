@@ -19,4 +19,29 @@
 
 .gpt3__navbar-links__logo img {
     width: 62px;
+    height: 16px;
+}
+
+.gpt3__navbar-links__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gpt3__navbar-links__container p,
+.gpt3__navbar-sign p,
+.gpt3__navbar-menu_container {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
 }
