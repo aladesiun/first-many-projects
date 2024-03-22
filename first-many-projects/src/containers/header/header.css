@@ -133,6 +133,7 @@
 
     .gpt3__header-content_input input,
     .gpt3__header-content_input button {
-
+        font-size: 16px;
+        line-height: 24px;
     }
 }
