@@ -43,9 +43,49 @@
     padding: 0 1rem;
     outline: none;
     color: white;
-    border-radius: 5px 0 0 5px;
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 27px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
+.gpt3__header-content_input button {
+    flex: 0.6;
+    width: 100%;
+    min-width: 50px;
+    background: #FF4820;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.gpt3__header-content_people {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.gpt3__header-content_people img{
+    width: 181px;
+    height: 38px;
+}
+
+.gpt3__header-content_people p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    margin: 0 0 0 1rem;
+    text-align: center;
+}
