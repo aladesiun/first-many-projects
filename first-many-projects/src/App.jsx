@@ -1,6 +1,6 @@
 import React from "react";
 
-import {Article, CTA, Navbar, Brand} from "./Components/index.js";
+import {CTA, Navbar, Brand} from "./Components/index.js";
 import {Header, Blog, Features,WhatGPT3, Footer, Possibility} from "./containers/index.js";
 
 
