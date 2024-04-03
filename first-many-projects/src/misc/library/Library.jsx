@@ -2,7 +2,7 @@ import React from 'react';
 import './library.css'
 
 const Library = () => (
-    <div className="library">
+    <div className="library" id={'library'}>
 
     </div>
 )
