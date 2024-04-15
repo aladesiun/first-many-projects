@@ -10,25 +10,24 @@ import {Library} from "./misc/index.js";
 const App = () => {
     return (
         <Router>
-                <div className={'App'}>
-                    <div className="gradient__bg">
-                        <Navbar/>
-                        <Header/>
-                    </div>
-                    <Brand/>
-                    <Routes>
-                        <Route exact path="/library">
-                            <Library />
-                        </Route>
-                    </Routes>
-
-                    <WhatGPT3/>
-                    <Features/>
-                    <Possibility/>
-                    <CTA/>
-                    <Blog/>
-                    <Footer/>
+            <div className={'App'}>
+                <div className="gradient__bg">
+                    <Navbar/>
+                    <Header/>
                 </div>
+                <Brand/>
+                <Routes>
+                    <Route path={"/"} element={<WhatGPT3 />} />
+                    <Route path={"/library"} element={<Library />} />
+                </Routes>
+
+                <WhatGPT3/>
+                <Features/>
+                <Possibility/>
+                <CTA/>
+                <Blog/>
+                <Footer/>
+            </div>
         </Router>
 
     )
