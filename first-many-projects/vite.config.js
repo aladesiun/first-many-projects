@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()], // Use the Vite React plugin
 
   // Configure esbuild options
-  esbuild: {
-    jsxInject: `import React from 'react';`, // Ensure React is imported for JSX
-  },
+  // esbuild: {
+  //   jsxInject: `import React from 'react';`, // Ensure React is imported for JSX
+  // },
 });
