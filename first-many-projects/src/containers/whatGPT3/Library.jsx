@@ -3,7 +3,7 @@ import './library.css'
 
 const Library = () => (
     <div className="library" id={'library'}>
-        Good
+
     </div>
 )
 

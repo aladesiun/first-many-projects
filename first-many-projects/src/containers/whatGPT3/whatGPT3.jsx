@@ -1,6 +1,7 @@
 import React from "react";
 import './whatGPT3.css';
 import Feature from "../../Components/feature/Feature.jsx";
+import {Link} from "react-router-dom";
 
 const whatGPT3 = () => {
     return (
@@ -12,7 +13,11 @@ const whatGPT3 = () => {
                 <h1 className={'gradient__text'}>
                     The possibilities are beyond your imagination
                 </h1>
-                <p>Explore The Library</p>
+                {/*<p>Explore The Library</p>*/}
+                {/*<Link to="/library">Explore The Library</Link>*/}
+                <Link to="/library" className="library-link">
+                    <p>Explore The Library</p>
+                </Link>
             </div>
             <div className="gpt3__whatgpt3-container">
                 <Feature title={'Chatbots'} text={'We so opinion friends me message as delight. Whole front do of plate heard oh ought. '} />
