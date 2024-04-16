@@ -3,6 +3,10 @@ import './whatGPT3.css';
 import Feature from "../../Components/feature/Feature.jsx";
 import {Link} from "react-router-dom";
 
+const handleClick = () => {
+    console.log('Link clicked');
+};
+
 const whatGPT3 = () => {
     return (
         <div className={'gpt3__whatgpt3 section__margin'} id={'wgpt3'}>
@@ -15,7 +19,7 @@ const whatGPT3 = () => {
                 </h1>
                 {/*<p>Explore The Library</p>*/}
                 {/*<Link to="/library">Explore The Library</Link>*/}
-                <Link to="/library" className="library-link">
+                <Link to="/library"  onClick={handleClick}>
                     <p>Explore The Library</p>
                 </Link>
             </div>
