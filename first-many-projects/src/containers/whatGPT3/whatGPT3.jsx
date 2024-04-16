@@ -17,8 +17,6 @@ const whatGPT3 = () => {
                 <h1 className={'gradient__text'}>
                     The possibilities are beyond your imagination
                 </h1>
-                {/*<p>Explore The Library</p>*/}
-                {/*<Link to="/library">Explore The Library</Link>*/}
                 <Link to="/library"  onClick={handleClick}>
                     <p>Explore The Library</p>
                 </Link>
