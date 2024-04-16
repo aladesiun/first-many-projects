@@ -17,7 +17,7 @@ const App = () => {
                 </div>
                 <Brand/>
                 <Routes>
-                    <Route path={"/"} element={<WhatGPT3 />} />
+                    <Route path={"#"} element={<WhatGPT3 />} />
                     <Route path={"/library"} element={<Library />} />
                 </Routes>
 
